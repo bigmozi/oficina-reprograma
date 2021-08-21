@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+
+}
+
+
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+ 
+a{
+    text-decoration: none;
+  
+} 
+ /* 
+.divMae{
+    display: flex;
+
+}
+
+.div1{
+    background-color: indianred;
+}
+
+.div2{
+    background-color: lightblue;
+
+}*/
+
+h1{
+
+    font-size: 48px;
+    margin-bottom: 24px;
+    
+}
+
+h3{
+    margin-bottom: 16px;
+    font-size: 16px;
+    color: #6f0c8d;
+
+}
+
+
+.banner{
+    background: url(../img/banner-bg.png);
+    background-size: cover;
+    height: 80vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.sub{
+    margin-top: 10px;
+    margin-bottom: 36px;
+}
+
+.botao{
+    background-color: rgb(129, 108, 129);
+    color: white;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+
+.sobre{
+    display: flex;
+    justify-content: center;
+    line-height: 1.5em;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+.sobre-desc{
+
+    width: 40%;
+}
+
+.sobre-desc p {
+    margin-bottom: 24px;
+
+}
+
+
+.sobre-habilidades{
+    width: 40%;
+    text-align: left;
+    
+}
+
+.lista{
+
+    line-height: 1.5em;
+
+}
+
+.titulo-sobre{
+    margin-bottom: 24px;
+    text-align: center;
+    color: #c4c4c4;
+    
+}
+
+.botao-sobre{
+    background-color:rgb(129, 108, 129) ;
+    color: white; 
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.redes{
+display: flex;
+justify-content: center;
+margin-top: 62px;
+
+}
+
+.redes-links{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(129, 108, 129);
+    width: 16%;
+    height: 180px;
+    margin: 16px;
+    color:white;
+    border-radius: 30px;
+    
+
+}
+
+.redes-links p{
+    margin-top: 10px;
+
+}
+
+.footer{
+    margin-top: 40px;
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+    color: white;
+
+
+}
